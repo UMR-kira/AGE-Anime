@@ -5,13 +5,21 @@ pack the web : https://www.age.tv
 采用在线Actions的[Build App With Pake CLI]功能，以下是部分填写的参数
 
 {
+
 Platform: windows-latest
+
 url: https://www.age.tv/
+
 name: AGE
+
 icon: https://raw.githubusercontent.com/UMR-kira/AGE-Anime/refs/heads/main/src-tauri/png/age_256.ico
+
 height: 720
+
 width: 1280
+
 fullscreen: true
+
 }
 
 提示：
