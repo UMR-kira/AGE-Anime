@@ -6,19 +6,19 @@ pack the web : https://www.age.tv
 
 {
 
-Platform: windows-latest
-
-url: https://www.age.tv/
-
-name: AGE
-
-icon: https://raw.githubusercontent.com/UMR-kira/AGE-Anime/refs/heads/main/src-tauri/png/age_256.ico
-
-height: 720
-
-width: 1280
-
-fullscreen: true
+    Platform: windows-latest
+    
+    url: https://www.age.tv/
+    
+    name: AGE
+    
+    icon: https://raw.githubusercontent.com/UMR-kira/AGE-Anime/refs/heads/main/src-tauri/png/age_256.ico
+    
+    height: 720
+    
+    width: 1280
+    
+    fullscreen: true
 
 }
 
