@@ -43,7 +43,11 @@ export async function downloadIcon(iconUrl: string) {
     if (!fileDetails) {
       return null;
     }
-
+    console.log(fileDetails);
+    if (IS_WIN && fileDetails.ext !== 'ico') {
+      console.log('Windows requires .ico format icon!');
+      return null;
+    }
     const { path: tempPath } = await dir();
     let iconPath = `${tempPath}/icon.${fileDetails.ext}`;
     // Fix this for linux
