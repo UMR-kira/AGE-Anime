@@ -4,8 +4,6 @@ pack the web : https://www.age.tv
 
 采用在线Actions的[Build App With Pake CLI]功能，以下是部分填写的参数
 
-{
-
     Platform: windows-latest
     
     url: https://www.age.tv/
@@ -19,8 +17,6 @@ pack the web : https://www.age.tv
     width: 1280
     
     fullscreen: true
-
-}
 
 提示：
 
