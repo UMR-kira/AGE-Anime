@@ -1,7 +1,5 @@
 fork for pake : https://github.com/tw93/Pake
 
-pack the web : https://www.age.tv
-
 采用在线Actions的[Build App With Pake CLI]功能，以下是部分填写的参数
 
     Platform: windows-latest
