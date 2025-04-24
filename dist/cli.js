@@ -832,9 +832,9 @@ async function downloadIcon(iconUrl) {
         if (!fileDetails) {
             return null;
         }
-        console.log(fileDetails);
+        logger.warn(`The img-type:"${fileDetails}"`);
         if (IS_WIN && fileDetails.ext !== 'ico') {
-            console.log('Windows requires .ico format icon!');
+            logger.warn(`✼Windows requires .ico format icon!`);
             return null;
         }
         const { path: tempPath } = await dir();
